@@ -1,0 +1,17 @@
+[package]
+name = "termi-music-player"
+version = "0.1.0"
+description = "A lightweight, terminal-based music player written in **Rust**, built purely for fun and exploration."
+authors = ["mahikoishor <mahikoishor@gmail.com>"]
+edition = "2024"
+repository = "https://github.com/mahikoishor/termi-music-player"
+keywords = ["music", "player", "mp3", "console"]
+readme = "README.md"
+include = ["src/**", "README.md", "Cargo.toml"]
+license = "GPL-2.0"
+
+[dependencies]
+tui = "0.19"
+crossterm = "0.27"
+arboard = "3"
+rodio = "0.17"
